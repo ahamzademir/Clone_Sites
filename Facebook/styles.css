@@ -1,1 +1,83 @@
+body {
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: #f0f2f5;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+div {
+  position: absolute;
+  margin: 85px 200px 85px;
+  text-align: left;
+}
+img {
+  width: 250px;
+  padding: 0;
+  margin-bottom: 0;
+}
 
+hr {
+  border: none;
+}
+
+input {
+  width: 400px;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.hidden-border {
+  border: hidden;
+}
+
+.info {
+  font-size: 30px;
+  width: 500px;
+  margin-top: 0;
+  margin-left: 3%;
+}
+
+.input-plate{
+  background-color: #ffffff;
+  text-align: center;
+  margin: 200px auto ;
+  padding: 10px;
+  height: 300px;
+  width: 400px;
+}
+
+.line {
+  width: 20px;
+  border-bottom: none;
+  width: 100px;
+  margin: 20px 0;
+
+}
+.button {
+  height: 50px;
+}
+.submit {
+  width: 400px;
+  background-color: #1877f2;
+  color: #ffffff
+}
+
+.submit:hover {
+  background-color: #166fe5;
+  color: #ffffff;
+}
+
+.new-account {
+  width: 200px;
+  background-color: #42b72a;
+  color: #ffffff
+}
+
+.new-account:hover {
+  background-color: #36a420;
+  color: #ffffff;
+}
