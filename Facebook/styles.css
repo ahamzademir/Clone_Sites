@@ -4,30 +4,77 @@ body {
   text-align: center;
   background-color: #f0f2f5;
   font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 div {
-  position: absolute;
-  margin: 85px 200px 85px;
+  margin: 0;
   text-align: left;
 }
-img {
-  width: 250px;
-  padding: 0;
-  margin-bottom: 0;
-}
+
 
 hr {
   border: none;
 }
 
 input {
-  width: 400px;
-  font-size: 20px;
-  margin: 10px auto;
+  width: 85%;
+  height: 42px;
+  font-size: 17px;
+  margin: 10px auto -10px auto;
+  border: 2px solid #f0f1f2;
+  padding: 0 20px;
+}
+
+input::placeholder {
+  color: #bbbec3;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 70%;
+  height: 20%;
+  padding: 2% 15%;
+  margin: -70px 0;
+  position: absolute;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  margin: auto 0 20% 0;
+}
+
+.left-container {
+  margin: auto auto auto 15%;
+  padding: 0;
+  width: 50%;
+}
+
+.sub-left {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10% auto auto auto;
+    width: 50%;
+}
+
+.right-container {
+  margin: auto;
+  padding: 0;
+  width: 50%;
+}
+
+.sub-right {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 auto auto auto;
+  width: 50%;
 }
 
 .rounded {
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .hidden-border {
@@ -35,35 +82,51 @@ input {
 }
 
 .info {
-  font-size: 30px;
-  width: 500px;
+  font-size: 28px;
+  width: 180%;
   margin-top: 0;
-  margin-left: 3%;
+  margin-left: 10%;
 }
 
-.input-plate{
+.img {
+  width: 300px;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.input-plate {
   background-color: #ffffff;
   text-align: center;
-  margin: 200px auto ;
-  padding: 10px;
-  height: 300px;
-  width: 400px;
+  margin: 50% auto 0 auto;
+
+  padding: 2%;
+  height: 30%;
+  width: 130%;
 }
 
 .line {
-  width: 20px;
+  border: solid #bbbec3 1px;
   border-bottom: none;
-  width: 100px;
-  margin: 20px 0;
-
+  margin: 10px auto;
 }
+
+.short {
+  max-width: 400px;
+}
+
+.long {
+  max-width: 100%;
+}
+
 .button {
   height: 50px;
 }
 .submit {
-  width: 400px;
+  width: 95%;
   background-color: #1877f2;
-  color: #ffffff
+  color: #ffffff;
+  font-style: bold;
 }
 
 .submit:hover {
@@ -74,10 +137,79 @@ input {
 .new-account {
   width: 200px;
   background-color: #42b72a;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .new-account:hover {
   background-color: #36a420;
   color: #ffffff;
+}
+
+.forgot-password {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password:visited {
+  color: #1877f2;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.create-page {
+  margin: 5% auto auto 10%;
+  width: 110%;
+  font-size: 13px;
+}
+
+.new-page {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.language {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.language:visited {
+  color: gray;
+}
+
+.language:hover {
+  text-decoration: underline;
+}
+
+.links {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.links:visited {
+  color: gray;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.sign {
+  font-size: 12px;
+  color: gray;
+}
+
+.top-margin {
+  margin-top: 20px;
 }
