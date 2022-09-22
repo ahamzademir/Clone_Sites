@@ -1,0 +1,146 @@
+body {
+ background-color: #f0f2f5;
+ font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    text-align: center;
+  }
+
+  .img {
+    margin-left: 30%;
+  }
+
+  body .col .input-div, .hr-lg, p {
+    margin-top: 50px;
+    margin-left: 22%;
+  }
+}
+
+h1 {
+  font-size: 28px;
+  padding-left: 30px;
+}
+
+hr {
+  margin: 5px 0;
+  border: none;
+}
+p {
+  width: 400px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 130px;
+}
+
+.img {
+  margin-top: 30px;
+  width: 300px;
+  margin-bottom: -15px;
+}
+
+.col {
+  text-align: center;
+  margin: auto 0;
+}
+
+.input-div, .hr-lg, p{
+  margin-left: 12%;
+}
+
+.input-div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 18px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.form-control{
+  height: 55px;
+}
+
+.btn {
+  height: 50px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.btn-link {
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: #42b72a;
+}
+
+.hr-lg {
+  margin: 15px 0;
+  width: 100px;
+}
+
+.seen {
+  width: 360px;
+  border-top: solid gray 1px;
+}
+
+.footer {
+  background-color: white;
+  padding: 30px 15%;
+  width: 100%;
+  height: 200px;
+  margin-top: 200px;
+  font-weight: normal;
+}
+
+.language {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.language:visited {
+  color: gray;
+}
+
+.language:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.links {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.links:visited {
+  color: gray;
+}
+
+.links:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.sign {
+  font-size: 12px;
+  color: gray;
+}
